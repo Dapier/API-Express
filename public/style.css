@@ -1,0 +1,75 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #f1f1f1f1;
+    font-family: Courier;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-height: 60rem;
+}
+
+.rowComp{
+    padding: 4rem;
+    background-color: #FF6E4E;
+    max-height: 24.8rem;
+    color: white;
+}
+
+.rowIn{
+    padding: 4rem;
+    background-color: #0043A4;
+    color: white;
+    max-height: 24.8rem;
+
+}
+
+.comp,.moti{
+    font-size: 3rem;
+}
+
+.complement,.motivation{
+    border: white 2px solid;
+    font-size: 2rem;
+    max-width: 80rem;
+}
+
+button{
+    border: none;
+    outline: none;
+}
+.btn-center{
+    text-align: center;
+    
+}
+
+.btn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 280px;
+    height: 80px;
+    background: #F2F8FD;
+    border-radius: 40px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .3s linear;
+    font-size: 1rem;
+  }
+
+.btn:hover{
+    background-color:#A84600 ;
+    color: #F2F8FD;
+}
+
+
